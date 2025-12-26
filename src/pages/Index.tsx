@@ -13,16 +13,16 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>TokenizeX | Enterprise Asset Tokenization & RWA Infrastructure</title>
+        <title>InfiniteS | Enterprise Asset Tokenization & RWA Infrastructure</title>
         <meta
           name="description"
           content="Institutional-grade blockchain infrastructure for tokenizing real-world assets. Securities, commodities, and alternative investments on secure digital rails."
         />
         <meta
           name="keywords"
-          content="asset tokenization, RWA, real world assets, blockchain infrastructure, digital securities, tokenized commodities"
+          content="asset tokenization, RWA, real world assets, blockchain infrastructure, digital securities, tokenized commodities, InfiniteS"
         />
-        <link rel="canonical" href="https://tokenizex.io" />
+        <link rel="canonical" href="https://infinites.io" />
       </Helmet>
       
       <div className="min-h-screen bg-background">
