@@ -32,7 +32,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <div className="text-foreground">hello@binatech.com</div>
+                  <div className="text-foreground">hello@binatech.co</div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
