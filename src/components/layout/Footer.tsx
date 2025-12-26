@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="w-5 h-5 rounded-sm bg-primary" />
               </div>
               <span className="font-display text-xl font-semibold text-foreground">
-                Tokenize<span className="text-primary">X</span>
+                Infinite<span className="text-primary">S</span>
               </span>
             </a>
             <p className="text-muted-foreground max-w-sm mb-6">
@@ -113,7 +113,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 TokenizeX. All rights reserved.
+            © 2024 InfiniteS. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a

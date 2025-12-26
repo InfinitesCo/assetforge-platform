@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Mail, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -32,16 +32,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <div className="text-foreground">enterprise@tokenizex.io</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <div className="text-sm text-muted-foreground">Phone</div>
-                  <div className="text-foreground">+1 (555) 123-4567</div>
+                  <div className="text-foreground">hello@binatech.com</div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -50,7 +41,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Headquarters</div>
-                  <div className="text-foreground">New York, London, Singapore</div>
+                  <div className="text-foreground">No13, Nill St, Mirdamad Blv, Tehran</div>
                 </div>
               </div>
             </div>

@@ -38,7 +38,7 @@ const Header = () => {
               <div className="w-5 h-5 rounded-sm bg-primary" />
             </div>
             <span className="font-display text-xl font-semibold text-foreground">
-              Tokenize<span className="text-primary">X</span>
+              Infinite<span className="text-primary">S</span>
             </span>
           </a>
 
