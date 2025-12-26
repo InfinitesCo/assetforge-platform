@@ -27,6 +27,19 @@ fi
 # Navigate to project directory
 cd "$PROJECT_DIR" || exit 1
 
+# Fix ownership if needed (run with sudo if necessary)
+echo -e "${YELLOW}Checking repository ownership...${NC}"
+CURRENT_USER=$(whoami)
+if [ -d ".git" ]; then
+    # Fix ownership of .git directory if needed
+    if [ ! -w ".git" ]; then
+        echo -e "${YELLOW}Fixing repository ownership...${NC}"
+        sudo chown -R "$CURRENT_USER:$CURRENT_USER" "$PROJECT_DIR"
+    fi
+    # Add safe directory if needed
+    git config --global --add safe.directory "$PROJECT_DIR" 2>/dev/null
+fi
+
 echo -e "${YELLOW}Pulling latest changes from GitHub...${NC}"
 git pull origin main
 
